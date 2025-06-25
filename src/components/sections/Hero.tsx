@@ -26,18 +26,14 @@ const Hero = () => {
         <div className="animate-fade-in">
           <h1 className="heading-primary text-text-dark mb-6">
             Ваш объект продаёт себя сам —<br />
-            <span className="text-gold font-medium">
-              если показать его по-настоящему
-            </span>
+            <span className="text-gold">если показать его по-настоящему</span>
           </h1>
 
-          <p className="text-lead mb-8 max-w-3xl mx-auto text-text-secondary">
+          <p className="text-lead mb-8 max-w-3xl mx-auto">
             Эффект присутствия в 3D-туре Matterport.
             <br />
-            <strong className="text-gold font-semibold">
-              +41% к бронированиям
-            </strong>{" "}
-            и время на сайте ×3
+            <strong className="text-gold">+41% к бронированиям</strong> и время
+            на сайте ×3
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
