@@ -38,7 +38,7 @@ const Process = () => {
     <section className="section-padding bg-pure-white">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="heading-secondary text-text-dark mb-6">
+          <h2 className="heading-secondary mb-6">
             Быстро, просто,{" "}
             <span className="text-gold">без лишних посредников</span>
           </h2>
@@ -64,11 +64,11 @@ const Process = () => {
                       className="text-gold"
                       size={20}
                     />
-                    <h3 className="text-xl font-semibold text-text-dark">
+                    <h3 className="text-xl font-semibold text-text-heading">
                       {step.title}
                     </h3>
                   </div>
-                  <p className="text-muted-foreground">{step.description}</p>
+                  <p className="text-text-primary">{step.description}</p>
                 </div>
 
                 {index < steps.length - 1 && (
@@ -80,7 +80,7 @@ const Process = () => {
 
           <div className="text-center mt-12 p-6 bg-gold/10 rounded-xl">
             <Icon name="Shield" className="text-gold mx-auto mb-3" size={24} />
-            <p className="text-text-dark font-medium">
+            <p className="text-text-heading font-medium">
               <strong>Всё под ключ:</strong> съёмка, хостинг (1 год),
               интеграция, поддержка
             </p>

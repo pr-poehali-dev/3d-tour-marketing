@@ -27,19 +27,22 @@ const FinalCTA = () => {
     <section id="final-cta" className="section-padding bg-deep-dark text-white">
       <div className="container-custom">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="heading-secondary mb-6">
+          <h2 className="heading-secondary text-[#111111] mb-6 font-cormorant">
             Покажите свой объект так,{" "}
             <span className="text-gold">как он заслуживает</span>
           </h2>
 
-          <p className="text-xl mb-12 text-gray-300">
+          <p className="text-xl mb-12 text-[#333333] font-inter">
             Получите индивидуальное предложение с точным расчётом стоимости
           </p>
 
           <div className="max-w-md mx-auto">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <Label htmlFor="name" className="text-white mb-2 block">
+                <Label
+                  htmlFor="name"
+                  className="text-[#777777] mb-2 block font-inter"
+                >
                   Ваше имя
                 </Label>
                 <Input
@@ -56,7 +59,10 @@ const FinalCTA = () => {
               </div>
 
               <div>
-                <Label htmlFor="contact" className="text-white mb-2 block">
+                <Label
+                  htmlFor="contact"
+                  className="text-[#777777] mb-2 block font-inter"
+                >
                   Телефон или WhatsApp
                 </Label>
                 <Input
@@ -73,7 +79,10 @@ const FinalCTA = () => {
               </div>
 
               <div>
-                <Label htmlFor="area-final" className="text-white mb-2 block">
+                <Label
+                  htmlFor="area-final"
+                  className="text-[#777777] mb-2 block font-inter"
+                >
                   Площадь объекта, м²
                 </Label>
                 <Input
@@ -92,7 +101,7 @@ const FinalCTA = () => {
               <Button
                 type="submit"
                 size="lg"
-                className="w-full bg-gold hover:bg-gold/90 text-white py-4 text-lg"
+                className="w-full bg-[#C7A17A] hover:bg-[#C7A17A]/90 text-white py-4 text-lg font-inter"
               >
                 <Icon name="MessageCircle" className="mr-2" size={20} />
                 Получить индивидуальное предложение
@@ -105,21 +114,21 @@ const FinalCTA = () => {
                 className="text-green-400 mx-auto mb-2"
                 size={20}
               />
-              <p className="text-green-400 font-medium">
+              <p className="text-[#777777] font-medium font-inter">
                 Гарантия результата или не берём оплату
               </p>
             </div>
 
             {/* Alternative contacts */}
             <div className="mt-8 pt-8 border-t border-white/20">
-              <p className="text-gray-400 mb-4">
+              <p className="text-[#777777] mb-4">
                 Или свяжитесь удобным способом:
               </p>
               <div className="flex justify-center gap-4">
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-white/20 text-white hover:bg-white/10"
+                  className="border-white/20 text-white hover:bg-white/10 font-inter"
                 >
                   <Icon name="MessageCircle" className="mr-2" size={16} />
                   WhatsApp
@@ -127,7 +136,7 @@ const FinalCTA = () => {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-white/20 text-white hover:bg-white/10"
+                  className="border-white/20 text-white hover:bg-white/10 font-inter"
                 >
                   <Icon name="Send" className="mr-2" size={16} />
                   Telegram

@@ -37,7 +37,7 @@ const PriceCalculator = () => {
     <section id="price-calculator" className="section-padding bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="heading-secondary text-text-dark mb-6">
+          <h2 className="heading-secondary mb-6">
             Рассчитайте цену <span className="text-gold">за минуту</span>
           </h2>
           <p className="text-lead">Всё прозрачно — без скрытых платежей</p>
@@ -48,7 +48,7 @@ const PriceCalculator = () => {
             <div className="mb-6">
               <Label
                 htmlFor="area"
-                className="text-lg font-medium text-text-dark mb-3 block"
+                className="text-lg font-medium text-text-heading mb-3 block"
               >
                 Площадь объекта, м²
               </Label>
@@ -69,7 +69,7 @@ const PriceCalculator = () => {
                     {price.min.toLocaleString()} — {price.max.toLocaleString()}{" "}
                     ₽
                   </div>
-                  <p className="text-text-dark font-medium">
+                  <p className="text-text-heading font-medium">
                     Полная стоимость проекта
                   </p>
                 </div>
@@ -77,7 +77,7 @@ const PriceCalculator = () => {
             )}
 
             <div className="space-y-4 mb-8">
-              <h3 className="font-semibold text-text-dark">
+              <h3 className="font-semibold text-text-heading">
                 В стоимость включено:
               </h3>
 
@@ -91,7 +91,7 @@ const PriceCalculator = () => {
                 ].map((item, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <Icon name="Check" className="text-green-600" size={16} />
-                    <span className="text-text-dark">{item}</span>
+                    <span className="text-text-heading">{item}</span>
                   </div>
                 ))}
               </div>
@@ -109,7 +109,7 @@ const PriceCalculator = () => {
             </div>
 
             <Button
-              className="w-full bg-gold hover:bg-gold/90 text-white py-4 text-lg"
+              className="w-full bg-gold hover:bg-gold/90 text-white py-4 text-lg font-inter"
               onClick={() =>
                 document
                   .getElementById("final-cta")

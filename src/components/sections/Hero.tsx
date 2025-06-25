@@ -24,23 +24,38 @@ const Hero = () => {
 
       <div className="container-custom text-center z-10">
         <div className="animate-fade-in">
-          <h1 className="heading-primary text-text-dark mb-6">
+          <h1
+            className="heading-primary mb-6"
+            style={{ color: "#111111", fontFamily: "Cormorant Garamond" }}
+          >
             Ваш объект продаёт себя сам —<br />
-            <span className="text-gold">если показать его по-настоящему</span>
+            <span style={{ color: "#C7A17A" }}>
+              если показать его по-настоящему
+            </span>
           </h1>
 
-          <p className="text-lead mb-8 max-w-3xl mx-auto">
+          <p
+            className="text-lead mb-8 max-w-3xl mx-auto"
+            style={{ color: "#333333", fontFamily: "Inter" }}
+          >
             Эффект присутствия в 3D-туре Matterport.
             <br />
-            <strong className="text-gold">+41% к бронированиям</strong> и время
-            на сайте ×3
+            <strong style={{ color: "#C7A17A" }}>+41% к бронированиям</strong> и
+            время на сайте ×3
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               onClick={scrollToDemo}
               size="lg"
-              className="bg-text-dark hover:bg-deep-dark text-white px-8 py-4 text-lg"
+              className="text-white px-8 py-4 text-lg"
+              style={{ backgroundColor: "#C7A17A", fontFamily: "Inter" }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.backgroundColor = "#B8956A")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.backgroundColor = "#C7A17A")
+              }
             >
               <Icon name="Play" className="mr-2" size={20} />
               Смотреть пример
@@ -50,7 +65,18 @@ const Hero = () => {
               onClick={openCalculator}
               variant="outline"
               size="lg"
-              className="border-gold text-gold hover:bg-gold hover:text-white px-8 py-4 text-lg"
+              className="hover:text-white px-8 py-4 text-lg"
+              style={{
+                borderColor: "#C7A17A",
+                color: "#C7A17A",
+                fontFamily: "Inter",
+              }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.backgroundColor = "#C7A17A")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.backgroundColor = "transparent")
+              }
             >
               <Icon name="Calculator" className="mr-2" size={20} />
               Получить расчёт

@@ -65,11 +65,16 @@ export default {
         gold: "#C7A17A",
         "deep-dark": "#1A1A1A",
         "pure-white": "#FFFFFF",
-        "text-dark": "#111111",
+        "text-heading": "#111111",
+        "text-primary": "#333333",
+        "text-secondary": "#777777",
       },
       fontFamily: {
         cormorant: ["Cormorant Garamond", "serif"],
+        playfair: ["Playfair Display", "serif"],
         inter: ["Inter", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

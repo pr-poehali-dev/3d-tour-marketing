@@ -34,7 +34,7 @@ const CasesReviews = () => {
     <section className="section-padding bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="heading-secondary text-text-dark mb-6">
+          <h2 className="heading-secondary mb-6">
             Как это работает <span className="text-gold">для других</span>
           </h2>
         </div>
@@ -49,17 +49,17 @@ const CasesReviews = () => {
               <div className="text-4xl font-cormorant font-bold text-gold mb-2">
                 {case_.metric}
               </div>
-              <p className="text-text-dark font-medium mb-2">
+              <p className="text-text-heading font-medium mb-2">
                 {case_.description}
               </p>
-              <p className="text-sm text-muted-foreground">{case_.type}</p>
+              <p className="text-sm text-text-secondary">{case_.type}</p>
             </div>
           ))}
         </div>
 
         {/* Reviews */}
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl font-cormorant text-center text-text-dark mb-8">
+          <h3 className="text-2xl font-cormorant text-center text-text-heading mb-8">
             Отзывы клиентов
           </h3>
 
@@ -73,10 +73,10 @@ const CasesReviews = () => {
                     size={20}
                   />
                   <div>
-                    <p className="text-text-dark mb-4 italic">
+                    <p className="text-text-heading mb-4 italic">
                       "{review.text}"
                     </p>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-sm text-text-secondary">
                       — {review.author}
                     </p>
                   </div>

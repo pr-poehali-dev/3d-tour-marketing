@@ -6,7 +6,7 @@ const DemoTour = () => {
     <section id="demo-tour" className="section-padding bg-pure-white">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="heading-secondary text-text-dark mb-6">
+          <h2 className="heading-secondary mb-6">
             Попробуйте <span className="text-gold">глазами вашего гостя</span>
           </h2>
           <p className="text-lead max-w-2xl mx-auto">
@@ -23,13 +23,13 @@ const DemoTour = () => {
                 <div className="w-24 h-24 bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Icon name="Play" className="text-gold" size={32} />
                 </div>
-                <h3 className="text-2xl font-cormorant text-text-dark mb-4">
+                <h3 className="text-2xl font-cormorant text-text-heading mb-4">
                   Демо 3D-тур
                 </h3>
-                <p className="text-muted-foreground mb-6">
+                <p className="text-text-primary mb-6">
                   Бутик-отель в центре города
                 </p>
-                <Button className="bg-gold hover:bg-gold/90 text-white">
+                <Button className="bg-gold hover:bg-gold/90 text-white font-inter">
                   <Icon name="MousePointer" className="mr-2" size={16} />
                   Начать тур
                 </Button>
@@ -37,10 +37,10 @@ const DemoTour = () => {
             </div>
 
             {/* Floating tooltips */}
-            <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-2 text-sm text-text-dark">
+            <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-2 text-sm text-text-heading">
               💡 Погуляйте по залу
             </div>
-            <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-2 text-sm text-text-dark">
+            <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-2 text-sm text-text-heading">
               🏠 Щёлкните «Кукольный дом»
             </div>
           </div>
@@ -51,8 +51,10 @@ const DemoTour = () => {
               <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="Move3D" className="text-gold" size={20} />
               </div>
-              <h4 className="font-semibold text-text-dark mb-2">360° обзор</h4>
-              <p className="text-sm text-muted-foreground">
+              <h4 className="font-semibold text-text-heading mb-2">
+                360° обзор
+              </h4>
+              <p className="text-sm text-text-secondary">
                 Полная свобода перемещения
               </p>
             </div>
@@ -61,10 +63,10 @@ const DemoTour = () => {
               <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="Layers" className="text-gold" size={20} />
               </div>
-              <h4 className="font-semibold text-text-dark mb-2">
+              <h4 className="font-semibold text-text-heading mb-2">
                 Кукольный дом
               </h4>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-text-secondary">
                 Вид планировки сверху
               </p>
             </div>
@@ -73,8 +75,10 @@ const DemoTour = () => {
               <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Icon name="Ruler" className="text-gold" size={20} />
               </div>
-              <h4 className="font-semibold text-text-dark mb-2">Измерения</h4>
-              <p className="text-sm text-muted-foreground">
+              <h4 className="font-semibold text-text-heading mb-2">
+                Измерения
+              </h4>
+              <p className="text-sm text-text-secondary">
                 Точные размеры помещений
               </p>
             </div>
