@@ -62,10 +62,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        gold: "#C7A17A",
+        gold: "#D4A574",
         "deep-dark": "#1A1A1A",
         "pure-white": "#FFFFFF",
-        "text-dark": "#111111",
+        "text-dark": "#2C2C2C",
+        "text-secondary": "#4A4A4A",
       },
       fontFamily: {
         cormorant: ["Cormorant Garamond", "serif"],
