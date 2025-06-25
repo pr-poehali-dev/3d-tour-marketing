@@ -29,7 +29,7 @@ const DemoTour = () => {
                 <p className="text-text-primary mb-6">
                   Бутик-отель в центре города
                 </p>
-                <Button className="bg-gold hover:bg-gold/90 text-white font-inter">
+                <Button className="bg-[#C7A17A] hover:bg-[#B8956A] text-white font-inter">
                   <Icon name="MousePointer" className="mr-2" size={16} />
                   Начать тур
                 </Button>

@@ -38,7 +38,7 @@ const PriceCalculator = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="heading-secondary mb-6">
-            Рассчитайте цену <span className="text-gold">за минуту</span>
+            Рассчитайте цену <span className="text-[#C7A17A]">за минуту</span>
           </h2>
           <p className="text-lead">Всё прозрачно — без скрытых платежей</p>
         </div>
@@ -58,14 +58,14 @@ const PriceCalculator = () => {
                 placeholder="Например: 150"
                 value={area}
                 onChange={(e) => handleAreaChange(e.target.value)}
-                className="text-lg p-4 border-2 border-gray-200 focus:border-gold"
+                className="text-lg p-4 border-2 border-gray-200 focus:border-[#C7A17A]"
               />
             </div>
 
             {price.min > 0 && (
-              <div className="bg-gold/10 p-6 rounded-xl mb-6">
+              <div className="bg-[#C7A17A]/10 p-6 rounded-xl mb-6">
                 <div className="text-center">
-                  <div className="text-3xl font-cormorant font-bold text-gold mb-2">
+                  <div className="text-3xl font-cormorant font-bold text-[#C7A17A] mb-2">
                     {price.min.toLocaleString()} — {price.max.toLocaleString()}{" "}
                     ₽
                   </div>
@@ -109,7 +109,7 @@ const PriceCalculator = () => {
             </div>
 
             <Button
-              className="w-full bg-gold hover:bg-gold/90 text-white py-4 text-lg font-inter"
+              className="w-full bg-[#C7A17A] hover:bg-[#B8956A] text-white py-4 text-lg font-inter"
               onClick={() =>
                 document
                   .getElementById("final-cta")

@@ -101,7 +101,7 @@ const FinalCTA = () => {
               <Button
                 type="submit"
                 size="lg"
-                className="w-full bg-[#C7A17A] hover:bg-[#C7A17A]/90 text-white py-4 text-lg font-inter"
+                className="w-full bg-[#C7A17A] hover:bg-[#B8956A] text-white py-4 text-lg font-inter"
               >
                 <Icon name="MessageCircle" className="mr-2" size={20} />
                 Получить индивидуальное предложение
@@ -128,7 +128,7 @@ const FinalCTA = () => {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-white/20 text-white hover:bg-white/10 font-inter"
+                  className="border-[#C7A17A] text-[#C7A17A] hover:bg-[#C7A17A] hover:text-white font-inter"
                 >
                   <Icon name="MessageCircle" className="mr-2" size={16} />
                   WhatsApp
@@ -136,7 +136,7 @@ const FinalCTA = () => {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-white/20 text-white hover:bg-white/10 font-inter"
+                  className="border-[#C7A17A] text-[#C7A17A] hover:bg-[#C7A17A] hover:text-white font-inter"
                 >
                   <Icon name="Send" className="mr-2" size={16} />
                   Telegram

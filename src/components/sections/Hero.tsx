@@ -48,14 +48,7 @@ const Hero = () => {
             <Button
               onClick={scrollToDemo}
               size="lg"
-              className="text-white px-8 py-4 text-lg"
-              style={{ backgroundColor: "#C7A17A", fontFamily: "Inter" }}
-              onMouseEnter={(e) =>
-                (e.currentTarget.style.backgroundColor = "#B8956A")
-              }
-              onMouseLeave={(e) =>
-                (e.currentTarget.style.backgroundColor = "#C7A17A")
-              }
+              className="bg-[#C7A17A] hover:bg-[#B8956A] text-white px-8 py-4 text-lg font-inter"
             >
               <Icon name="Play" className="mr-2" size={20} />
               Смотреть пример
@@ -65,18 +58,7 @@ const Hero = () => {
               onClick={openCalculator}
               variant="outline"
               size="lg"
-              className="hover:text-white px-8 py-4 text-lg"
-              style={{
-                borderColor: "#C7A17A",
-                color: "#C7A17A",
-                fontFamily: "Inter",
-              }}
-              onMouseEnter={(e) =>
-                (e.currentTarget.style.backgroundColor = "#C7A17A")
-              }
-              onMouseLeave={(e) =>
-                (e.currentTarget.style.backgroundColor = "transparent")
-              }
+              className="border-[#C7A17A] text-[#C7A17A] hover:bg-[#C7A17A] hover:text-white px-8 py-4 text-lg font-inter"
             >
               <Icon name="Calculator" className="mr-2" size={20} />
               Получить расчёт
